@@ -2,12 +2,15 @@ const controller = {};
 
 controller.obtainMetaTags = (req, res) => {
     var id = req.query.id;
+    if (!id) {
+        id = 1;
+    }
 
     const data = {
         title: id,
         descripción: "Prueba de descripción",
         url: "https://www.sciencefriday.com/",
-        image: "https://encasa.parqueexplora.org/images/Historieta%20Melina/" + id + "_.png",
+        image: "https://loremflickr.com/320/240/books?lock=" + id,
     }
     res.render('template', {
         data,
