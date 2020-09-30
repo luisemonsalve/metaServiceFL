@@ -2,14 +2,16 @@ const controller = {};
 
 controller.obtainMetaTags = (req, res) => {
     var id = req.query.id;
+
     const data = {
         title: id,
         descripción: "Prueba de descripción",
         url: "https://www.sciencefriday.com/",
-        image: "https://www.sciencefriday.com/wp-content/uploads/2016/01/Science-Friday-logo.png"
+        image: "https://encasa.parqueexplora.org/images/Historieta%20Melina/" + id + "_.png",
     }
     res.render('template', {
-        data
+        data,
+        urlToRedirect: '2;url=' + data.url
     })
 }
 
