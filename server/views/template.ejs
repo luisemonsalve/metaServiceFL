@@ -15,7 +15,7 @@
 
 
     <meta name="twitter:card" content="player">
-    <meta name="twitter:player" content=<%= data.image %>>
+    <meta name="twitter:player" content="https://backend-fl.herokuapp.com/?id=<%= data.title %>">
     <meta name="twitter:player:width" content="250">
     <meta name="twitter:player:height" content="100">
     <meta name="twitter:description" content="<%= data.description %>">
@@ -25,7 +25,10 @@
 </head>
 
 <body>
-    <h1><%= data.title %></h1>
+    <div style="width: 100%; text-align: center;">
+        <img width="100%" src="<%= data.image %>" alt="">
+    </div>
+
 </body>
 
 </html>
