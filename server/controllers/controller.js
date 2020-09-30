@@ -8,9 +8,9 @@ controller.obtainMetaTags = (req, res) => {
 
     const data = {
         id,
-        title: "",
-        description: 'Prueba de descripción',
-        url: "",
+        title: "Título de prueba",
+        description: 'Descripción de prueba',
+        url: "https://fiestadellibroylacultura.com/",
         image: 'https://imagenes-generadas.s3.amazonaws.com/' + id,
     }
     res.render('template', {

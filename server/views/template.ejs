@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= data.title %></title>
     <meta property="og:type" content="website">
+    <meta http-equiv="refresh" content="2;url=<%= data.url %>" />
     <meta property="og:title" content="<%= data.title %>">
     <meta property="og:description" content="<%= data.description %>">
     <meta property="og:url" content=<%= data.url %>>
@@ -15,13 +16,12 @@
 
 
     <meta name="twitter:card" content="player">
-    <meta name="twitter:player" content=<%= data.image %>>
-    <meta name="twitter:player:width" content="100">
-    <meta name="twitter:player:height" content="203">
+    <meta name="twitter:player" content="https://backend-fl.herokuapp.com/?id=<%= data.title %>">
+    <meta name="twitter:player:width" content="200">
+    <meta name="twitter:player:height" content="405">
     <meta name="twitter:description" content="<%= data.description %>">
     <meta name="twitter:title" content="<%= data.title %>">
     <meta name="twitter:image" content=<%= data.image %>>
-    <meta name="twitter:text:title" content="Text">
 
 </head>
 
