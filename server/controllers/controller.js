@@ -7,9 +7,10 @@ controller.obtainMetaTags = (req, res) => {
     }
 
     const data = {
-        title: id,
+        id,
+        title: "",
         description: 'Prueba de descripción',
-        url: "https://www.sciencefriday.com/",
+        url: "",
         image: 'https://imagenes-generadas.s3.amazonaws.com/' + id,
     }
     res.render('template', {
