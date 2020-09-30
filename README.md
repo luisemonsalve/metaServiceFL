@@ -39,4 +39,5 @@ Para configurar los textos que se muestras solo basta con ir a */controllers/con
     })
 
 ```
-
+Para usarlo solo basta con unir el id de la imagen a el enlace donde se despliegue el servidor,
+actualmente esta desplegado en [https://backend-fl.herokuapp.com/]("https://backend-fl.herokuapp.com/"), para problarlo se puede compartir el siguiente enlace en redes sociales https://backend-fl.herokuapp.com/?id=1601477277811
