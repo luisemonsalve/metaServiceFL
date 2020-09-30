@@ -10,7 +10,7 @@ controller.obtainMetaTags = (req, res) => {
         title: id,
         description: 'Prueba de descripción',
         url: "https://www.sciencefriday.com/",
-        image: "https://loremflickr.com/320/240/books?lock=" + id,
+        image: 'https://imagenes-generadas.s3.amazonaws.com/' + id,
     }
     res.render('template', {
         data,
