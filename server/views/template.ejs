@@ -26,15 +26,9 @@
 
 <body>
     <div style="width: 100%; text-align: center;">
-        <img width="100%" src="<%= data.image %>" alt="">
+        <a href="<%= data.url %>" style=" margin: auto;"><img width="100%" src="<%= data.image %>" alt=""></a>
     </div>
 
 </body>
-<script>
-    window.onload = function () {
-
-        window.location.href = "<%= data.url %>";
-    }
-</script>
 
 </html>
