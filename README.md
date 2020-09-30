@@ -15,7 +15,8 @@ y la configuración de estos metatags se define a partir de un query param llama
 
 ## Configuración
 
-Tener presente que se debe configurar el tipo archivos que va a retornar, en este caso estamos renderizando una plantilla ejs con unas variables pre definidas.
+Se debe configurar el tipo archivos que va a retornar, en este caso estamos renderizando una plantilla ejs con unas variables pre definidas. La logica implementada para esto se encuentra en el archivo *server/app.js* pero se debe adaptar según el proyecto.
+<br>
 <br>
 Para configurar los textos que se muestras solo basta con ir a */controllers/controller.js*, y buscar la constante **data**.
 
