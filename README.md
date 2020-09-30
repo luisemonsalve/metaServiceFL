@@ -19,7 +19,7 @@ Tener presente que se debe configurar el tipo archivos que va a retornar, en est
 <br>
 Para configurar los textos que se muestras solo basta con ir a */controllers/controller.js*, y buscar la constante **data**.
 
-´´´javascript
+```javascript 
     var id = req.query.id;
     if (!id) {
         id = 1601477277811; //Id de la imagen por defecto
@@ -37,5 +37,5 @@ Para configurar los textos que se muestras solo basta con ir a */controllers/con
         urlToRedirect: '2;url=' + data.url
     })
 
-´´´
+```
 
