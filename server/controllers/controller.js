@@ -8,7 +8,7 @@ controller.obtainMetaTags = (req, res) => {
 
     const data = {
         title: id,
-        descripción: "Prueba de descripción",
+        description: "Prueba de descripción",
         url: "https://www.sciencefriday.com/",
         image: "https://loremflickr.com/320/240/books?lock=" + id,
     }
