@@ -5,7 +5,7 @@
 - Para iniciar usamos el comando **npm install**
 - Para iniciar el servidor podemos usar **npm start** o **npm run dev** para correrlo en un servidor de desarrollo
 - Por defecto está corriendo en un ambiente local en el puerto 4000
-- El endpoind '/' recive un id como query param, por ejemplo **/'?id=1601477277811**
+- El endpoind '/' recive un id como query param, por ejemplo **/?id=1601477277811**
 
 ## Estructura
 
