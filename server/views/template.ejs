@@ -24,13 +24,17 @@
 
 </head>
 
-<body>
+<body onclick="redirectTo();">
     <div style="width: 100%; text-align: center;">
-        <img width="100%" src="<%= data.image %>" alt="">
+        <img src="<%= data.image %>" alt="">
     </div>
 
 </body>
 <script>
+    function redirectTo() {
+
+        window.location.replace("<%= data.url %>")
+    }
 </script>
 
 </html>
