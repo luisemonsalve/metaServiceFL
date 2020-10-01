@@ -10,7 +10,7 @@ controller.obtainMetaTags = (req, res) => {
         id,
         title: "Título", //Aquí va el título de la entrada
         description: 'Descripción', //Aquí va la descripción
-        url: "https://fiestadellibroylacultura.com/", // Url final a donde redirige despues de abrir
+        url: 'https://fiestadellibroylacultura.com/', // Url final a donde redirige despues de abrir
         image: 'https://imagenes-generadas.s3.amazonaws.com/' + id, //Link del servidor donde se esta guradando las imagenes que se van a compartir
     }
     res.render('template', {
